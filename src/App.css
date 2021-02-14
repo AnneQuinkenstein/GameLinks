@@ -1,38 +1,107 @@
-.App {
-  text-align: center;
+body {
+  background: #150f21;
+  font-size: 18px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+p {
+  line-height: 1.5;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container {
+  max-width: 90%;
+  margin: 0 auto;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  justify-content: space-around;
+}
+
+/* Cards */
+.card-column {
+  width: 50%;
+  float: left;
+  padding: 4%;
+  box-sizing: border-box;
+}
+
+.column:nth-child(1) {
+  padding-top: 100px;
+}
+
+.column:nth-child(3) {
+    padding-top: 80px;
+  }
+
+.column:nth-child(4) {
+    padding-top: 150px;
+  }
+
+.card {
+  width: 92%;
+  max-width: 340px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  background: #eb5160;
+  color: #fff;
+  cursor: pointer;
+  margin-bottom: 60px;
+}
+
+.border {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  padding: 6px;
+  border: 1px solid #fff;
+  opacity: 0.5;
+  left: -6px;
+  top: -6px;
+}
+
+.card h1 {
+  position: relative;
+  padding: 190px 0px 100px 50px;
+  width: 120%;
+}
+
+a {
+  text-decoration: none;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.card > iframe {
+  width: 90%;
+  position: absolute;
+  top: -6%;
+  left: -6%;
+  z-index: 99;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.card-column:nth-child(1) > .card-color {
+  background-color: #eb5160;
+}
+
+.card-column:nth-child(2) > .card-color {
+  background-color: #8f3985;
+}
+
+.card-column:nth-child(3) > .card-color {
+  background-color: #8daa91;
+}
+
+.card-column:nth-child(4) > .card-color {
+  background-color: #888da7;
+}
+
+/* 
+  ** Media Queries
+  */
+
+@media screen and (max-width: 600px) {
+  .card-column {
+    width: 90%;
   }
-  to {
-    transform: rotate(360deg);
+
+  .column:nth-child(1) > .card-color {
+    padding-top: 0px;
   }
 }
