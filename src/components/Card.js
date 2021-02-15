@@ -5,11 +5,11 @@ export const Card = ({ game }) => {
     <div class="card-column column">
       <div class="card card-color">
         <div class="border"></div>
-        <h1>
-          <a href={game.link} target="blank">
+        <a href={game.link} target="blank">
+        <h2>
              Play {game.name}!
-          </a>
-        </h1>
+        </h2>
+        </a>
         <iframe
           title="youTube Explanation Codenames"
           src={`https://www.youtube.com/embed/${game.youtubeId}`}

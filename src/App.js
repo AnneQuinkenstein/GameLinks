@@ -27,11 +27,14 @@ const games = [
 console.log(games);
 const App = () => {
   return (
+    <>
+   <h1>Games without necessary Registration</h1>
     <div class="container">
       {games.map((game) => (
         <Card game={game} key={game.youtubeId} />
       ))}
     </div>
+    </>
   );
 };
 

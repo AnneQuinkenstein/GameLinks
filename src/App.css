@@ -3,6 +3,11 @@ body {
   font-size: 18px;
 }
 
+h1{
+    color:white; 
+    text-align: center;
+}
+
 p {
   line-height: 1.5;
 }
@@ -12,6 +17,7 @@ p {
   margin: 0 auto;
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 /* Cards */
@@ -57,7 +63,7 @@ p {
   top: -6px;
 }
 
-.card h1 {
+.card h2 {
   position: relative;
   padding: 190px 0px 100px 50px;
   width: 120%;
@@ -69,10 +75,10 @@ a {
 }
 
 .card > iframe {
-  width: 90%;
+  width: 100%;
   position: absolute;
-  top: -6%;
-  left: -6%;
+  top: -8%;
+  left: -8%;
   z-index: 99;
 }
 
