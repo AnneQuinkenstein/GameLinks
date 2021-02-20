@@ -29,19 +29,17 @@ const games = [
 console.log(games);
 const App = () => {
   return (
-    <> <nav>
-        <h1>Games to play in 2D World</h1>
+    <>
+      <Switch>
+        <Route path="/:name" render={() => <Card games={games} />} />
+      </Switch>
+      <nav>
         <ul>
           {games.map((game) => (
             <Navbar game={game} key={game.youtubeId} />
           ))}
         </ul>
       </nav>
-      <div class="container">
-        <Switch>
-          <Route path="/:name" render={() => <Card games = {games} />} />
-        </Switch>
-      </div>
     </>
   );
 };
