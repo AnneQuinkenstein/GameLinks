@@ -1,5 +1,7 @@
 import "./App.css";
 import { Card } from "./components/Card";
+import { Switch, Route } from "react-router-dom";
+import Navbar from "./components/Navbar";
 
 const games = [
   {
@@ -27,13 +29,19 @@ const games = [
 console.log(games);
 const App = () => {
   return (
-    <>
-   <h1>Games without necessary Registration</h1>
-    <div class="container">
-      {games.map((game) => (
-        <Card game={game} key={game.youtubeId} />
-      ))}
-    </div>
+    <> <nav>
+        <h1>Games to play in 2D World</h1>
+        <ul>
+          {games.map((game) => (
+            <Navbar game={game} key={game.youtubeId} />
+          ))}
+        </ul>
+      </nav>
+      <div class="container">
+        <Switch>
+          <Route path="/:name" render={() => <Card games = {games} />} />
+        </Switch>
+      </div>
     </>
   );
 };
