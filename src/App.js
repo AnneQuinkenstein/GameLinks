@@ -10,9 +10,9 @@ const games = [
     youtubeId: "8-CDhyK-x9w",
   },
   {
-    name: "Doppelkopf",
-    link: "https://www.doko-lounge.de/",
-    youtubeId: "S-lUPbYl4hU",
+    name: "Pictionary",
+    link: "https://skribbl.io/",
+    youtubeId: "enSezDurWFc",
   },
   {
     name: "Set",
@@ -23,6 +23,11 @@ const games = [
     name: "Doppelkopf",
     link: "https://www.doko-lounge.de/",
     youtubeId: "S-lUPbYl4hU",
+  },
+  {
+    name: "Boardgamearena",
+    link: "https://en.boardgamearena.com/",
+    youtubeId: "L24JI9rbSLA",
   },
 ];
 
