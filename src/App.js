@@ -6,7 +6,7 @@ import Navbar from "./components/Navbar";
 const games = [
   {
     name: "Codename",
-    link: "https://codenames.game/room/arm-fork-sword",
+    link: "https://codenames.game",
     youtubeId: "8-CDhyK-x9w",
     explain: "Play in English or German. Create your own room and paste in the chat."
   },
@@ -14,7 +14,7 @@ const games = [
     name: "Pictionary",
     link: "https://skribbl.io",
     youtubeId: "enSezDurWFc",
-    explain: "Play in English or German. Create your own room and paste in the chat."
+    explain: "Play in English or German. Create a private room, copy the link and paste it in the chat."
   },
   {
     name: "Set",
