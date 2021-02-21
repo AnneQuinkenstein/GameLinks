@@ -8,26 +8,31 @@ const games = [
     name: "Codename",
     link: "https://codenames.game/room/arm-fork-sword",
     youtubeId: "8-CDhyK-x9w",
+    explain: "Play in English or German. Create your own room and paste in the chat."
   },
   {
     name: "Pictionary",
-    link: "https://skribbl.io/?LwJwB10piFGS",
+    link: "https://skribbl.io",
     youtubeId: "enSezDurWFc",
+    explain: "Play in English or German. Create your own room and paste in the chat."
   },
   {
     name: "Set",
-    link: "https://setwithfriends.com/room/unadvised-literate-finger",
+    link: "https://setwithfriends.com",
     youtubeId: "Kc4WrL7cxeg",
+    explain: "Create your own room and paste in the chat."
   },
   {
     name: "Doppelkopf",
     link: "https://www.doko-lounge.de/",
     youtubeId: "S-lUPbYl4hU",
+    explain: "Please register. You don't have to use an email."
   },
   {
     name: "Boardgamearena",
     link: "https://en.boardgamearena.com/",
     youtubeId: "L24JI9rbSLA",
+    explain: "To play you have to register with an email."
   },
 ];
 
@@ -35,21 +40,16 @@ console.log(games);
 const App = () => {
   return (
     <>
-      <Switch>
-        <Route path="/:name" render={() => <Card games={games} />} />
-      </Switch>
-      <div>
-        <p>Exchange Information in 2D World with the chat at bottom left</p>
-        <img
-          src="https://i.imgur.com/tZRt4bn.png"
-          alt="description of 2d world"
-        />
+      <div className="container">
+        <Switch>
+          <Route path="/:name" render={() => <Card games={games} />} />
+        </Switch>
+        <ul>
+          {games.map((game) => (
+            <Navbar game={game} key={game.youtubeId} />
+          ))}
+        </ul>
       </div>
-      <ul>
-        {games.map((game) => (
-          <Navbar game={game} key={game.youtubeId} />
-        ))}
-      </ul>
     </>
   );
 };
