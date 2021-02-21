@@ -8,31 +8,35 @@ const games = [
     name: "Codename",
     link: "https://codenames.game",
     youtubeId: "8-CDhyK-x9w",
-    explain: "Play in English or German. Create your own room and paste in the chat."
+    explain:
+      "Play in English or German or other languages. Create your own room and paste in the chat.",
   },
   {
     name: "Pictionary",
     link: "https://skribbl.io",
     youtubeId: "enSezDurWFc",
-    explain: "Play in English or German. Create a private room, copy the link and paste it in the chat."
+    explain:
+      "Play in English or German or other languages. Create a private room, copy the link and paste it in the chat.",
   },
   {
     name: "Set",
     link: "https://setwithfriends.com",
     youtubeId: "Kc4WrL7cxeg",
-    explain: "Create your own room and paste in the chat."
+    explain:
+      "If you want to play together create your own room and paste the link in the chat.",
   },
   {
     name: "Doppelkopf",
     link: "https://www.doko-lounge.de/",
     youtubeId: "S-lUPbYl4hU",
-    explain: "Please register. You don't have to use an email."
+    explain:
+      "Please register. Just pick a name and a password. You don't have to use an email.",
   },
   {
     name: "Boardgamearena",
     link: "https://en.boardgamearena.com/",
     youtubeId: "L24JI9rbSLA",
-    explain: "To play you have to register with an email."
+    explain: "To play you have to register with an email.",
   },
 ];
 
