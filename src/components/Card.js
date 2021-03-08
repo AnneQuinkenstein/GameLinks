@@ -4,7 +4,7 @@ import { useParams } from "react-router-dom";
 export const Card = ({ games }) => {
   const { name } = useParams();
   const matchGame = games && games.find((game) => game.name === name);
-
+  console.log(matchGame.pic);
   return (
     <>
       <div class="card-column column">
@@ -27,17 +27,18 @@ export const Card = ({ games }) => {
         </div>
       </div>
       <div className="info">
-          <p className="explain">
-           {matchGame.explain}
-          </p>
-          <div>
-            <p>Chat in 2D World at bottom left</p>
-            <img
-              src="https://i.imgur.com/tZRt4bn.png"
-              alt="description of 2d world"
-            />
-          </div>
+        <p className="explain">
+          {matchGame.explain}
+          <img src={`${matchGame.pic}`} alt="hint to get it working" />
+        </p>
+        <div>
+          <img className="chatpic"
+            src="https://i.imgur.com/tZRt4bn.png"
+            alt="description of 2d world"
+          />
+           <p>Chat in 2D World at bottom left</p>
         </div>
+      </div>
     </>
   );
 };
