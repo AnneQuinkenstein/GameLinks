@@ -46,7 +46,7 @@ const games = [
   {
     name: "Stadt Land Fluß",
     link: "https://www.stadt-land-fluss.online/",
-    youtubeId: "L24JI9rbSLA",
+    youtubeId: "8xa530VyIQw",
     pic: "https://i.imgur.com/3IcjvI4.png",
     explain:
       "Choose your Language, choose cathegories and hit play. Limit the game to invited friends and post the URL to the game in the 2D World Chat.",
