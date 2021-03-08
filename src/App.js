@@ -8,7 +8,7 @@ const games = [
     name: "Codename",
     link: "https://codenames.game",
     youtubeId: "8-CDhyK-x9w",
-    pic: "https://i.imgur.com/4kXsMME.png",
+    pic: "https://i.imgur.com/EcnJqiV.png",
     explain:
       "Play in English or German or other languages. Create your own room and paste in the chat.",
   },
@@ -18,21 +18,21 @@ const games = [
     youtubeId: "enSezDurWFc",
     pic: "https://i.imgur.com/4kXsMME.png",
     explain:
-      "Play in English or German or ... Create private room, copy the link and paste it in the chat.",
+      "Choose your language. Create private room. Copy the link and paste it in the chat.",
   },
   {
     name: "Set",
     link: "https://setwithfriends.com",
     youtubeId: "Kc4WrL7cxeg",
-    pic: "https://i.imgur.com/4kXsMME.png",
+    pic: "https://i.imgur.com/YMSIWV2.png",
     explain:
-      "If you want to play together create your own room and paste the link in the chat.",
+      "If you want to play together click \"new private room\" and paste the link in the chat.",
   },
   {
     name: "Doppelkopf",
     link: "https://www.doko-lounge.de/",
     youtubeId: "S-lUPbYl4hU",
-    pic: "https://i.imgur.com/4kXsMME.png",
+    pic: "https://i.imgur.com/vTyv8WE.png",
     explain:
       "Please register. Just pick a name and a password. You don't have to use an email.",
   },
@@ -40,7 +40,7 @@ const games = [
     name: "Boardgamearena",
     link: "https://en.boardgamearena.com/",
     youtubeId: "L24JI9rbSLA",
-    pic: "https://i.imgur.com/4kXsMME.png",
+    pic: "https://i.imgur.com/mxcg5BY.png",
     explain: "To play you have to register with an email.",
   },
   {
@@ -49,7 +49,7 @@ const games = [
     youtubeId: "L24JI9rbSLA",
     pic: "https://i.imgur.com/3IcjvI4.png",
     explain:
-      "Choose your Language, choose cathegories and hit the playbutton. Limit the game to invited friends and post the URL to the game in the 2D World Chat.",
+      "Choose your Language, choose cathegories and hit play. Limit the game to invited friends and post the URL to the game in the 2D World Chat.",
   },
 ];
 
