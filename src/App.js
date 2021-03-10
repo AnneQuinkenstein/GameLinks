@@ -30,7 +30,7 @@ const games = [
   },
   {
     name: "Doppelkopf",
-    link: "https://www.doko-lounge.de/",
+    link: "https://www.doko-lounge.de",
     youtubeId: "S-lUPbYl4hU",
     pic: "https://i.imgur.com/vTyv8WE.png",
     explain:
@@ -38,14 +38,14 @@ const games = [
   },
   {
     name: "Boardgamearena",
-    link: "https://en.boardgamearena.com/",
+    link: "https://en.boardgamearena.com",
     youtubeId: "L24JI9rbSLA",
     pic: "https://i.imgur.com/mxcg5BY.png",
     explain: "To play you have to register with an email.",
   },
   {
     name: "Stadt Land Fluß",
-    link: "https://www.stadt-land-fluss.online/",
+    link: "https://stadtlandflussonline.net",
     youtubeId: "8xa530VyIQw",
     pic: "https://i.imgur.com/3IcjvI4.png",
     explain:
